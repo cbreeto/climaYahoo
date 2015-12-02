@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4FE89CAF1C0EA27500765C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE89CAE1C0EA27500765C38 /* AppDelegate.swift */; };
-		4FE89CB11C0EA27500765C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE89CB01C0EA27500765C38 /* ViewController.swift */; };
 		4FE89CB41C0EA27500765C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE89CB21C0EA27500765C38 /* Main.storyboard */; };
 		4FE89CB61C0EA27500765C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE89CB51C0EA27500765C38 /* Assets.xcassets */; };
 		4FE89CB91C0EA27500765C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE89CB71C0EA27500765C38 /* LaunchScreen.storyboard */; };
+		4FE89CC11C0EA46900765C38 /* TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE89CC01C0EA46900765C38 /* TVC.swift */; settings = {ASSET_TAGS = (); }; };
+		4FE89CC31C0EA8A000765C38 /* controlCiudad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE89CC21C0EA8A000765C38 /* controlCiudad.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4FE89CAB1C0EA27500765C38 /* climaYahoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = climaYahoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FE89CAE1C0EA27500765C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FE89CB01C0EA27500765C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FE89CB31C0EA27500765C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FE89CB51C0EA27500765C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FE89CB81C0EA27500765C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FE89CBA1C0EA27500765C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE89CC01C0EA46900765C38 /* TVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVC.swift; sourceTree = "<group>"; };
+		4FE89CC21C0EA8A000765C38 /* controlCiudad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlCiudad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4FE89CAE1C0EA27500765C38 /* AppDelegate.swift */,
-				4FE89CB01C0EA27500765C38 /* ViewController.swift */,
 				4FE89CB21C0EA27500765C38 /* Main.storyboard */,
+				4FE89CC21C0EA8A000765C38 /* controlCiudad.swift */,
 				4FE89CB51C0EA27500765C38 /* Assets.xcassets */,
 				4FE89CB71C0EA27500765C38 /* LaunchScreen.storyboard */,
 				4FE89CBA1C0EA27500765C38 /* Info.plist */,
+				4FE89CC01C0EA46900765C38 /* TVC.swift */,
 			);
 			path = climaYahoo;
 			sourceTree = "<group>";
@@ -134,8 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE89CB11C0EA27500765C38 /* ViewController.swift in Sources */,
+				4FE89CC31C0EA8A000765C38 /* controlCiudad.swift in Sources */,
 				4FE89CAF1C0EA27500765C38 /* AppDelegate.swift in Sources */,
+				4FE89CC11C0EA46900765C38 /* TVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
